@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mongoose": "^4.9.0",
+    "osmosis": "^1.1.2"
+  },
+  "scripts": {
+    "start": "node osmosis_zhihu_recommendation.js"
+  }
+}
