@@ -16,13 +16,6 @@ osmosis
     'content': '.content',
     'imgUrl': '.post-content img @src'
   })
-/**** Same as above ****/
-  /*
-  .follow('.r @href')         // Follow the link. Really that's it!!
-  .set({
-     'pageText': 'body'       // Set some property for the pageText by parsing body tag
-  })
-  */
   .data((data) => {
     //console.log('--- single data ---');
     //console.log(data);
@@ -46,7 +39,6 @@ osmosis
       });
 
     });
-
   })
-  .error(console.log)
+  .error(console.log);
   //.debug(console.log);
